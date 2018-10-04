@@ -55,7 +55,7 @@ except IOError:
         #소켓만들기
         c = socket(AF_INET,SOCK_STREAM)
         #서버 호스트 - 임의로 지정했습니다.
-        hostn = '121.198.1.151'
+        hostn = 'filename'.repace("www.","",1)
         try:
             #소켓연결,포트설정
             print('o')
